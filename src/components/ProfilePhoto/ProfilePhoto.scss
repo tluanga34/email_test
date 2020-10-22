@@ -1,0 +1,17 @@
+@import "../../Assets/css/variables";
+
+$card-dim: 60px;
+
+.profile-photo {
+  width: $card-dim;
+  height: $card-dim;
+  background-color: $color-primary;
+  color:$color-primary-contrast;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+}

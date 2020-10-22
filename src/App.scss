@@ -1,0 +1,45 @@
+@import "./Assets/css/variables";
+
+body {
+  background-color: $color-body-gray;
+  color: $color-text;
+}
+
+.App {
+  padding: 50px 0px;
+}
+
+.App-header {
+  display: flex;
+  font-size: 1.2rem;
+  padding: 0px 50px;
+  
+  .navigation-menu {
+    margin: 0px 0px 0px 10px;
+    padding: 0px;
+    li {
+      display: inline-block;
+      a {
+        button {
+          font-size: 1.2rem;
+          border: none;
+          background-color: transparent;
+          height: 35px;
+          padding: 0px 15px;
+          border-radius: 20px;
+          cursor: inherit;
+        }
+        &.active {
+          button {
+            background-color: $color-btn-active-grey;
+          }
+        }
+      }
+    }
+  }
+}
+
+.main-body {
+  margin-top: 20px;
+  padding: 0px 50px;
+}

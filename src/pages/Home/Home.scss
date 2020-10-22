@@ -1,0 +1,27 @@
+.home {
+  .home-email-list {
+    width: 100%;
+    transition: width 0.4s;
+    height: calc(100vh - 156px);
+    overflow: auto;
+
+    &>*:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+
+
+  &.detail-view {
+    display: flex;
+
+    .home-email-list {
+      width: 444px;
+    }
+
+    .email-body {
+      flex: 1;
+      margin-left: 20px;
+    }
+  }
+
+}

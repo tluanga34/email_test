@@ -1,0 +1,22 @@
+.email-body-card {
+  display: flex;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 40px 20px;
+  border-radius: 10px;
+
+  .email-subject,
+  .date {
+    margin-bottom: 15px;
+  }
+
+  .email-subject {
+    font-size: 25px;
+  }
+
+
+  .profile-section {
+    width: 86px;
+    flex-shrink: 0;
+  }
+}
